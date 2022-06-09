@@ -1,0 +1,53 @@
+{
+  "uid" : "219b54377aaf974a",
+  "name" : "Delete all books from the Customer Collection",
+  "fullName" : "Bookstore Endpoints @bookstore:.Delete all books from the Customer Collection",
+  "historyId" : "cfa2adc5689f326983a4a2686df4a93b",
+  "time" : {
+    "start" : 1654767020908,
+    "stop" : 1654767022213,
+    "duration" : 1305
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete all books from the Customer Collection"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "219b54377aaf974a.json",
+  "parameterValues" : [ ]
+}

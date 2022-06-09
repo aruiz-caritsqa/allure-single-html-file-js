@@ -1,0 +1,69 @@
+{
+  "uid" : "a581e75358e07a86",
+  "name" : "Add single Book to Customer Collection; Verify book is added to User Account",
+  "fullName" : "Bookstore Endpoints @bookstore:.Add single Book to Customer Collection; Verify book is added to User Account",
+  "historyId" : "b5c91a45e7e0ad6f4c142b4c0cac4943",
+  "time" : {
+    "start" : 1654766997746,
+    "stop" : 1654766998510,
+    "duration" : 764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dcb5701f8ef65441",
+      "name" : "Log Message",
+      "source" : "dcb5701f8ef65441.json",
+      "type" : "application/json",
+      "size" : 741
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add single Book to Customer Collection; Verify book is added to User Account"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "a581e75358e07a86.json",
+  "parameterValues" : [ ]
+}

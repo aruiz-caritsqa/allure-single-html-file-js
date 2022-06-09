@@ -1,0 +1,132 @@
+{
+  "uid" : "b5606a5fb71ec086",
+  "name" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "fullName" : "User Account Endpoints @account:.Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "historyId" : "8d5f55de6c763b6509c0581b650fb63f",
+  "time" : {
+    "start" : 1654766998407,
+    "stop" : 1654767000443,
+    "duration" : 2036
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I create a new User Account",
+      "time" : {
+        "start" : 1654766999130,
+        "stop" : 1654767000221,
+        "duration" : 1091
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 1",
+        "time" : {
+          "start" : 1654766999219,
+          "stop" : 1654767000220,
+          "duration" : 1001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "710382312f5e9087",
+        "name" : "Log Message",
+        "source" : "710382312f5e9087.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I generate a User Token",
+      "time" : {
+        "start" : 1654767000221,
+        "stop" : 1654767000372,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2f77c0e760bd43b",
+        "name" : "Log Message",
+        "source" : "a2f77c0e760bd43b.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e0f1a497968c063e",
+      "name" : "Log Message",
+      "source" : "e0f1a497968c063e.json",
+      "type" : "application/json",
+      "size" : 105
+    }, {
+      "uid" : "564d8d9669498528",
+      "name" : "Custom Message calling addLogMessageToAllure from fe-test-data",
+      "source" : "564d8d9669498528.json",
+      "type" : "application/json",
+      "size" : 14
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "b5606a5fb71ec086.json",
+  "parameterValues" : [ ]
+}

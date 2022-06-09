@@ -1,0 +1,255 @@
+{
+  "uid" : "ecc7bb91151f49d6",
+  "name" : "Should login & see the book in the Customer Collection",
+  "fullName" : "Bookstore Endpoints @bookstore:.Should login & see the book in the Customer Collection",
+  "historyId" : "36c086d85c58dc35466936ae81f5b0a1",
+  "time" : {
+    "start" : 1654766998524,
+    "stop" : 1654767003611,
+    "duration" : 5087
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"https://demoqa.com/login\"",
+      "time" : {
+        "start" : 1654766999198,
+        "stop" : 1654767000151,
+        "duration" : 953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"userName\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767000151,
+        "stop" : 1654767000759,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"password\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767000759,
+        "stop" : 1654767001077,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I click \"//*[@id=\"login\"]\"",
+      "time" : {
+        "start" : 1654767001077,
+        "stop" : 1654767001202,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I wait 2",
+      "time" : {
+        "start" : 1654767001202,
+        "stop" : 1654767003204,
+        "duration" : 2002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I: addScreenshotToAllure ",
+      "time" : {
+        "start" : 1654767003207,
+        "stop" : 1654767003595,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I save screenshot \"3f31c6dc-1d92-4815-8c8b-987996814ca3.png\", true",
+        "time" : {
+          "start" : 1654767003207,
+          "stop" : 1654767003368,
+          "duration" : 161
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "9be39da0f649a89c",
+        "name" : "3f31c6dc-1d92-4815-8c8b-987996814ca3.png",
+        "source" : "9be39da0f649a89c.png",
+        "type" : "image/png",
+        "size" : 144237
+      }, {
+        "uid" : "5319e16821c3076d",
+        "name" : "Custom Message",
+        "source" : "5319e16821c3076d.json",
+        "type" : "application/json",
+        "size" : 983
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I wait for visible \"//div[@class=\"profile-wrapper\"]//div[contains(@class, \"ReactTable\")]//div[@role=\"row\" and .//img]\"",
+      "time" : {
+        "start" : 1654767003595,
+        "stop" : 1654767003601,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I: getAttributeFromElement JSHandle@node, \"href\"",
+      "time" : {
+        "start" : 1654767003606,
+        "stop" : 1654767003609,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I execute script function(el, name) {\n                                    return el.getAttribute(name);\n                                  }, JSHandle@node, \"href\"",
+        "time" : {
+          "start" : 1654767003606,
+          "stop" : 1654767003608,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I: getTextFromElement JSHandle@node",
+      "time" : {
+        "start" : 1654767003609,
+        "stop" : 1654767003611,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I execute script function(el) {\n                                    return el.textContent\n                                  }, JSHandle@node",
+        "time" : {
+          "start" : 1654767003609,
+          "stop" : 1654767003611,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should login & see the book in the Customer Collection"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "ecc7bb91151f49d6.json",
+  "parameterValues" : [ ]
+}

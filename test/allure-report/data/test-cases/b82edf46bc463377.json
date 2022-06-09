@@ -1,0 +1,75 @@
+{
+  "uid" : "b82edf46bc463377",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid token\",\"getUserAccountInput\":\"({userID, token: 'token'})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid token\",\"getUserAccountInput\":\"({userID, token: 'token'})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "historyId" : "3cb1b9715daf50403da4cd5c6b18e771",
+  "time" : {
+    "start" : 1654767001769,
+    "stop" : 1654767002368,
+    "duration" : 599
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "affdd40a850b86ea",
+      "name" : "input",
+      "source" : "affdd40a850b86ea.json",
+      "type" : "application/json",
+      "size" : 74
+    }, {
+      "uid" : "d6b459899ec22b47",
+      "name" : "output",
+      "source" : "d6b459899ec22b47.json",
+      "type" : "application/json",
+      "size" : 98
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid token\",\"getUserAccountInput\":\"({userID, token: 'token'})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "b82edf46bc463377.json",
+  "parameterValues" : [ ]
+}

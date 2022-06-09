@@ -1,0 +1,8 @@
+{
+  "statusCode": 200,
+  "body": {
+    "userId": "e9e30b30-e962-4b30-a4c4-4adab991e32c",
+    "username": "Testing1212!",
+    "books": []
+  }
+}

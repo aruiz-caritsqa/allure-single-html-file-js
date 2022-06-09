@@ -1,0 +1,9 @@
+{
+  "statusCode": 200,
+  "body": {
+    "token": null,
+    "expires": null,
+    "status": "Failed",
+    "result": "User authorization failed."
+  }
+}

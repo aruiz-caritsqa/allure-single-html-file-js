@@ -1,0 +1,231 @@
+{
+  "uid" : "8560eb2c715f535e",
+  "name" : "Should login & see the books in the Customer Collection using I.grab functions",
+  "fullName" : "Bookstore Endpoints @bookstore:.Should login & see the books in the Customer Collection using I.grab functions",
+  "historyId" : "1cd651c60a0aeef1d5dd2a25c0c3c3f7",
+  "time" : {
+    "start" : 1654767005817,
+    "stop" : 1654767010965,
+    "duration" : 5148
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"https://demoqa.com/login\"",
+      "time" : {
+        "start" : 1654767006514,
+        "stop" : 1654767007583,
+        "duration" : 1069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"userName\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767007583,
+        "stop" : 1654767008040,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"password\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767008041,
+        "stop" : 1654767008390,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I click \"//*[@id=\"login\"]\"",
+      "time" : {
+        "start" : 1654767008391,
+        "stop" : 1654767008550,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I wait 2",
+      "time" : {
+        "start" : 1654767008551,
+        "stop" : 1654767010553,
+        "duration" : 2002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I: addScreenshotToAllure ",
+      "time" : {
+        "start" : 1654767010554,
+        "stop" : 1654767010727,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I save screenshot \"6227931b-2cd1-4464-8d0a-f9c346844b26.png\", true",
+        "time" : {
+          "start" : 1654767010554,
+          "stop" : 1654767010725,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "89e7320c838a52ac",
+        "name" : "6227931b-2cd1-4464-8d0a-f9c346844b26.png",
+        "source" : "89e7320c838a52ac.png",
+        "type" : "image/png",
+        "size" : 183208
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I wait for visible \"//div[@class=\"profile-wrapper\"]//div[contains(@class, \"ReactTable\")]//div[@role=\"row\" and .//img]\"",
+      "time" : {
+        "start" : 1654767010727,
+        "stop" : 1654767010738,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I grab text from all \"//div[@class=\"profile-wrapper\"]//div[contains(@class, \"ReactTable\")]//div[@role=\"row\" and .//img]\"",
+      "time" : {
+        "start" : 1654767010739,
+        "stop" : 1654767010760,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I grab attribute from all \"//div[@class=\"profile-wrapper\"]//div[contains(@class, \"ReactTable\")]//div[@role=\"row\" and .//img]//a\", \"href\"",
+      "time" : {
+        "start" : 1654767010763,
+        "stop" : 1654767010780,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf74f9d1fb46fa80",
+      "name" : "Log Message",
+      "source" : "bf74f9d1fb46fa80.json",
+      "type" : "application/json",
+      "size" : 222
+    }, {
+      "uid" : "f62b3cae084ca61a",
+      "name" : "Log Message",
+      "source" : "f62b3cae084ca61a.json",
+      "type" : "application/json",
+      "size" : 145
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should login & see the books in the Customer Collection using I.grab functions"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "8560eb2c715f535e.json",
+  "parameterValues" : [ ]
+}

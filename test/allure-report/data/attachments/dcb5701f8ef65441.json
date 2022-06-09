@@ -1,0 +1,17 @@
+user: {
+  "userId": "4ad6232e-a3db-46d6-a441-cecdb7d2b51e",
+  "username": "Testing123123!",
+  "books": [
+    {
+      "isbn": "9781491904244",
+      "title": "You Don't Know JS",
+      "subTitle": "ES6 & Beyond",
+      "author": "Kyle Simpson",
+      "publish_date": "2015-12-27T00:00:00.000Z",
+      "publisher": "O'Reilly Media",
+      "pages": 278,
+      "description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st",
+      "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"
+    }
+  ]
+}

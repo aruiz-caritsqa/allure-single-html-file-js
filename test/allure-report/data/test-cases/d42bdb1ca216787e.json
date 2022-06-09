@@ -1,0 +1,96 @@
+{
+  "uid" : "d42bdb1ca216787e",
+  "name" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "fullName" : "Bookstore Endpoints @bookstore:.Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "historyId" : "d0b7cdc2fd05028c7b31362d2992bebf",
+  "time" : {
+    "start" : 1654766995668,
+    "stop" : 1654766997723,
+    "duration" : 2055
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I wait 1",
+      "time" : {
+        "start" : 1654766996570,
+        "stop" : 1654766997572,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7e0ab9326a7b5434",
+      "name" : "Log Message",
+      "source" : "7e0ab9326a7b5434.json",
+      "type" : "application/json",
+      "size" : 46
+    }, {
+      "uid" : "6d17dc531faa5e60",
+      "name" : "Log Message",
+      "source" : "6d17dc531faa5e60.json",
+      "type" : "application/json",
+      "size" : 189
+    }, {
+      "uid" : "b43b2c8e20cb46f9",
+      "name" : "Log Message",
+      "source" : "b43b2c8e20cb46f9.json",
+      "type" : "application/json",
+      "size" : 114
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "d42bdb1ca216787e.json",
+  "parameterValues" : [ ]
+}

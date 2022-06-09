@@ -1,0 +1,75 @@
+{
+  "uid" : "d37f4276f4ddaa0f",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Successful Authorization - uses defined variable (usernamePassword)\",\"isAuthorizedInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"true\"}",
+  "fullName" : "User Account Endpoints @account:.isAuthorized Data Driven Test | {\"desc\":\"Successful Authorization - uses defined variable (usernamePassword)\",\"isAuthorizedInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"true\"}",
+  "historyId" : "bb6db45713c313d4cfc6f213eaf791d3",
+  "time" : {
+    "start" : 1654767009750,
+    "stop" : 1654767010420,
+    "duration" : 670
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d372605eb1dcb78e",
+      "name" : "input",
+      "source" : "d372605eb1dcb78e.json",
+      "type" : "application/json",
+      "size" : 62
+    }, {
+      "uid" : "ff42bdcf63090876",
+      "name" : "output",
+      "source" : "ff42bdcf63090876.json",
+      "type" : "application/json",
+      "size" : 39
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "isAuthorized Data Driven Test | {\"desc\":\"Successful Authorization - uses defined variable (usernamePassword)\",\"isAuthorizedInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"true\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "d37f4276f4ddaa0f.json",
+  "parameterValues" : [ ]
+}

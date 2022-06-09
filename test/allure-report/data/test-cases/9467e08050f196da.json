@@ -1,0 +1,75 @@
+{
+  "uid" : "9467e08050f196da",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"generateTokenInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": null, \\\"expires\\\": null, \\\"status\\\": \\\"Failed\\\", \\\"result\\\": \\\"User authorization failed.\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.generateToken Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"generateTokenInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": null, \\\"expires\\\": null, \\\"status\\\": \\\"Failed\\\", \\\"result\\\": \\\"User authorization failed.\\\"})\"}",
+  "historyId" : "b6cf660e091c897ced562c33a379fd27",
+  "time" : {
+    "start" : 1654767014062,
+    "stop" : 1654767014782,
+    "duration" : 720
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4100f8f0fe753b4",
+      "name" : "input",
+      "source" : "f4100f8f0fe753b4.json",
+      "type" : "application/json",
+      "size" : 53
+    }, {
+      "uid" : "6dd2061643a90f8a",
+      "name" : "output",
+      "source" : "6dd2061643a90f8a.json",
+      "type" : "application/json",
+      "size" : 147
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "generateToken Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"generateTokenInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": null, \\\"expires\\\": null, \\\"status\\\": \\\"Failed\\\", \\\"result\\\": \\\"User authorization failed.\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "9467e08050f196da.json",
+  "parameterValues" : [ ]
+}

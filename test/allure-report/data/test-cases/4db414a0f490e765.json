@@ -1,0 +1,75 @@
+{
+  "uid" : "4db414a0f490e765",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - missing token\",\"getUserAccountInput\":\"({userID})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.getUserAccount Data Driven Test | {\"desc\":\"Fail - missing token\",\"getUserAccountInput\":\"({userID})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "historyId" : "2724119255b1301e0d89942c5503b4bc",
+  "time" : {
+    "start" : 1654767003008,
+    "stop" : 1654767003673,
+    "duration" : 665
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3177e81cb84d56a3",
+      "name" : "input",
+      "source" : "3177e81cb84d56a3.json",
+      "type" : "application/json",
+      "size" : 54
+    }, {
+      "uid" : "401c8307f7b735ad",
+      "name" : "output",
+      "source" : "401c8307f7b735ad.json",
+      "type" : "application/json",
+      "size" : 98
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - missing token\",\"getUserAccountInput\":\"({userID})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "4db414a0f490e765.json",
+  "parameterValues" : [ ]
+}

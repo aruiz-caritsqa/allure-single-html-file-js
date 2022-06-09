@@ -1,0 +1,75 @@
+{
+  "uid" : "976c9ed225b42553",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - missing userName\",\"generateTokenInput\":\"({password: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.generateToken Data Driven Test | {\"desc\":\"Fail - missing userName\",\"generateTokenInput\":\"({password: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "historyId" : "691bfd18f7674ffd7bd02737f6c4a864",
+  "time" : {
+    "start" : 1654767016390,
+    "stop" : 1654767017130,
+    "duration" : 740
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6fce32478c1d54ce",
+      "name" : "input",
+      "source" : "6fce32478c1d54ce.json",
+      "type" : "application/json",
+      "size" : 32
+    }, {
+      "uid" : "75aa0df85ecc0f0d",
+      "name" : "output",
+      "source" : "75aa0df85ecc0f0d.json",
+      "type" : "application/json",
+      "size" : 109
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "generateToken Data Driven Test | {\"desc\":\"Fail - missing userName\",\"generateTokenInput\":\"({password: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "976c9ed225b42553.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,311 @@
+[ {
+  "uid" : "b5606a5fb71ec086",
+  "name" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "time" : {
+    "start" : 1654766998407,
+    "stop" : 1654767000443,
+    "duration" : 2036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcc08d8849abfd5a",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Successful Authorization - uses chai-match-pattern to validate response body\",\"generateTokenInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": /^[A-Za-z0-9-_=]+.[A-Za-z0-9-_=]+.?[A-Za-z0-9-_.+/=]*$/, \\\"expires\\\": global.cmp.isDateString, \\\"status\\\": \\\"Success\\\", \\\"result\\\": \\\"User authorized successfully.\\\"})\"}",
+  "time" : {
+    "start" : 1654767013351,
+    "stop" : 1654767014028,
+    "duration" : 677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecc7bb91151f49d6",
+  "name" : "Should login & see the book in the Customer Collection",
+  "time" : {
+    "start" : 1654766998524,
+    "stop" : 1654767003611,
+    "duration" : 5087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21899b5d6a9f10",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - missing password\",\"generateTokenInput\":\"({userName: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "time" : {
+    "start" : 1654767015624,
+    "stop" : 1654767016375,
+    "duration" : 751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70521ec45de52551",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - missing password\",\"isAuthorizedInput\":\"({userName: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "time" : {
+    "start" : 1654767012028,
+    "stop" : 1654767012706,
+    "duration" : 678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d37f4276f4ddaa0f",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Successful Authorization - uses defined variable (usernamePassword)\",\"isAuthorizedInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"true\"}",
+  "time" : {
+    "start" : 1654767009750,
+    "stop" : 1654767010420,
+    "duration" : 670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42bdb1ca216787e",
+  "name" : "Create new user via API; Should authorize successfully; Should get token; Should find user via API",
+  "time" : {
+    "start" : 1654766995668,
+    "stop" : 1654766997723,
+    "duration" : 2055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed8574f260eeb38c",
+  "name" : "Login with user created by API",
+  "time" : {
+    "start" : 1654767003699,
+    "stop" : 1654767009722,
+    "duration" : 6023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "471daaaf1209ebe0",
+  "name" : "Shouldn't successfully Login with user that has just been deleted",
+  "time" : {
+    "start" : 1654767018041,
+    "stop" : 1654767022513,
+    "duration" : 4472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76c763ad8ca9973d",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - incorrect password\",\"isAuthorizedInput\":\"({userName: usernamePassword, password: 'foo'})\",\"expStatusCode\":\"404\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "time" : {
+    "start" : 1654767011256,
+    "stop" : 1654767012014,
+    "duration" : 758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecc540af8bda0b71",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - missing userName\",\"isAuthorizedInput\":\"({password: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "time" : {
+    "start" : 1654767012717,
+    "stop" : 1654767013337,
+    "duration" : 620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b82edf46bc463377",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid token\",\"getUserAccountInput\":\"({userID, token: 'token'})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "time" : {
+    "start" : 1654767001769,
+    "stop" : 1654767002368,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5f34b6c3ac84cac",
+  "name" : "Should Delete User",
+  "time" : {
+    "start" : 1654767026650,
+    "stop" : 1654767027589,
+    "duration" : 939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0698bd190519c7e",
+  "name" : "Should login & see no books in the Customer Collection",
+  "time" : {
+    "start" : 1654767022243,
+    "stop" : 1654767026617,
+    "duration" : 4374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9467e08050f196da",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"generateTokenInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": null, \\\"expires\\\": null, \\\"status\\\": \\\"Failed\\\", \\\"result\\\": \\\"User authorization failed.\\\"})\"}",
+  "time" : {
+    "start" : 1654767014062,
+    "stop" : 1654767014782,
+    "duration" : 720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5a24d6fa188ab69",
+  "name" : "Should login & see the books in the Customer Collection using node-html-parser",
+  "time" : {
+    "start" : 1654767015816,
+    "stop" : 1654767020868,
+    "duration" : 5052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfe1888f87bd67c8",
+  "name" : "Test chaiWrapper",
+  "time" : {
+    "start" : 1654766995619,
+    "stop" : 1654766998371,
+    "duration" : 2752
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e1ffeae7dce0fe",
+  "name" : "Delete the book from the Customer Collection",
+  "time" : {
+    "start" : 1654767003643,
+    "stop" : 1654767004690,
+    "duration" : 1047
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a581e75358e07a86",
+  "name" : "Add single Book to Customer Collection; Verify book is added to User Account",
+  "time" : {
+    "start" : 1654766997746,
+    "stop" : 1654766998510,
+    "duration" : 764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8560eb2c715f535e",
+  "name" : "Should login & see the books in the Customer Collection using I.grab functions",
+  "time" : {
+    "start" : 1654767005817,
+    "stop" : 1654767010965,
+    "duration" : 5148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff87080a500e8520",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid userID\",\"getUserAccountInput\":\"({userID: 'me', token})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "time" : {
+    "start" : 1654767001115,
+    "stop" : 1654767001755,
+    "duration" : 640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1adedc1341930a91",
+  "name" : "Add Multiple Books to Customer Collection; Verify books are added to User Account",
+  "time" : {
+    "start" : 1654767004715,
+    "stop" : 1654767005805,
+    "duration" : 1090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "219b54377aaf974a",
+  "name" : "Delete all books from the Customer Collection",
+  "time" : {
+    "start" : 1654767020908,
+    "stop" : 1654767022213,
+    "duration" : 1305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61943828c2183a06",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - missing userID\",\"getUserAccountInput\":\"({token})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "time" : {
+    "start" : 1654767002379,
+    "stop" : 1654767002984,
+    "duration" : 605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed3ffb56b1940f5",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"isAuthorizedInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"404\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "time" : {
+    "start" : 1654767010434,
+    "stop" : 1654767011225,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976c9ed225b42553",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - missing userName\",\"generateTokenInput\":\"({password: usernamePassword})\",\"expStatusCode\":\"400\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"UserName and Password required.\\\"})\"}",
+  "time" : {
+    "start" : 1654767016390,
+    "stop" : 1654767017130,
+    "duration" : 740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c22916a2899da72",
+  "name" : "Should Delete User",
+  "time" : {
+    "start" : 1654767017143,
+    "stop" : 1654767018027,
+    "duration" : 884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d7e6a66109a23d8",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Successful Authorization - uses computed variables (userID, token)\",\"getUserAccountInput\":\"({userID, token})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"userId\\\": userID, \\\"username\\\": usernamePassword, \\\"books\\\": []})\"}",
+  "time" : {
+    "start" : 1654767000455,
+    "stop" : 1654767001100,
+    "duration" : 645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4db414a0f490e765",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - missing token\",\"getUserAccountInput\":\"({userID})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1200\\\", \\\"message\\\": \\\"User not authorized!\\\"})\"}",
+  "time" : {
+    "start" : 1654767003008,
+    "stop" : 1654767003673,
+    "duration" : 665
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6922356edcf326e",
+  "name" : "Should login & see the books in the Customer Collection using helper._locate",
+  "time" : {
+    "start" : 1654767010998,
+    "stop" : 1654767015767,
+    "duration" : 4769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e46060aebf1279c",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Fail - incorrect password\",\"generateTokenInput\":\"({userName: usernamePassword, password: 'foo'})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": null, \\\"expires\\\": null, \\\"status\\\": \\\"Failed\\\", \\\"result\\\": \\\"User authorization failed.\\\"})\"}",
+  "time" : {
+    "start" : 1654767014796,
+    "stop" : 1654767015610,
+    "duration" : 814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

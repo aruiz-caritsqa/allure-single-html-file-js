@@ -1,0 +1,75 @@
+{
+  "uid" : "ff87080a500e8520",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid userID\",\"getUserAccountInput\":\"({userID: 'me', token})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid userID\",\"getUserAccountInput\":\"({userID: 'me', token})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "historyId" : "761292f8ba0a652926c4be7bcbbdae84",
+  "time" : {
+    "start" : 1654767001115,
+    "stop" : 1654767001755,
+    "duration" : 640
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2278e317d01f34f",
+      "name" : "input",
+      "source" : "e2278e317d01f34f.json",
+      "type" : "application/json",
+      "size" : 210
+    }, {
+      "uid" : "84e16a64fe8f4563",
+      "name" : "output",
+      "source" : "84e16a64fe8f4563.json",
+      "type" : "application/json",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserAccount Data Driven Test | {\"desc\":\"Fail - invalid userID\",\"getUserAccountInput\":\"({userID: 'me', token})\",\"expStatusCode\":\"401\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "ff87080a500e8520.json",
+  "parameterValues" : [ ]
+}

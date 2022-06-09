@@ -1,0 +1,9 @@
+{
+  "statusCode": 200,
+  "body": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IlRlc3RpbmcxMjEyISIsInBhc3N3b3JkIjoiVGVzdGluZzEyMTIhIiwiaWF0IjoxNjU0NzY3MDE0fQ.mMSuour1g3mw5gK9wXB69rhDLEWq3msAoGHdaX14G5g",
+    "expires": "2022-06-16T09:30:14.007Z",
+    "status": "Success",
+    "result": "User authorized successfully."
+  }
+}

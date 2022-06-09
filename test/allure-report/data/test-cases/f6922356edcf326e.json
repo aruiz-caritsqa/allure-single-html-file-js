@@ -1,0 +1,216 @@
+{
+  "uid" : "f6922356edcf326e",
+  "name" : "Should login & see the books in the Customer Collection using helper._locate",
+  "fullName" : "Bookstore Endpoints @bookstore:.Should login & see the books in the Customer Collection using helper._locate",
+  "historyId" : "5e5d56236ecab1e2ca9dc7b2c53fd2cb",
+  "time" : {
+    "start" : 1654767010998,
+    "stop" : 1654767015767,
+    "duration" : 4769
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I am on page \"https://demoqa.com/login\"",
+      "time" : {
+        "start" : 1654767011707,
+        "stop" : 1654767012590,
+        "duration" : 883
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"userName\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767012590,
+        "stop" : 1654767013078,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I fill field \"//*[@id=\"password\"]\", \"Testing123123!\"",
+      "time" : {
+        "start" : 1654767013078,
+        "stop" : 1654767013387,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I click \"//*[@id=\"login\"]\"",
+      "time" : {
+        "start" : 1654767013387,
+        "stop" : 1654767013521,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I wait 2",
+      "time" : {
+        "start" : 1654767013521,
+        "stop" : 1654767015528,
+        "duration" : 2007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I wait for visible \"//div[@class=\"profile-wrapper\"]//div[contains(@class, \"ReactTable\")]//div[@role=\"row\" and .//img]\"",
+      "time" : {
+        "start" : 1654767015529,
+        "stop" : 1654767015538,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I execute script function(el) {\n                          return {\n                            href: el.href,\n                            text: el.textContent\n                          };\n                        }, JSHandle@node",
+      "time" : {
+        "start" : 1654767015751,
+        "stop" : 1654767015755,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I execute script function(el) {\n                          return {\n                            href: el.href,\n                            text: el.textContent\n                          };\n                        }, JSHandle@node",
+      "time" : {
+        "start" : 1654767015759,
+        "stop" : 1654767015761,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I execute script function(el) {\n                          return {\n                            href: el.href,\n                            text: el.textContent\n                          };\n                        }, JSHandle@node",
+      "time" : {
+        "start" : 1654767015764,
+        "stop" : 1654767015766,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d4e2d17c77c0adb",
+      "name" : "Log Message",
+      "source" : "d4e2d17c77c0adb.json",
+      "type" : "application/json",
+      "size" : 114
+    }, {
+      "uid" : "7b156605e68d902",
+      "name" : "Log Message",
+      "source" : "7b156605e68d902.json",
+      "type" : "application/json",
+      "size" : 108
+    }, {
+      "uid" : "a2f7cf21a1d198dc",
+      "name" : "Log Message",
+      "source" : "a2f7cf21a1d198dc.json",
+      "type" : "application/json",
+      "size" : 108
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@bookstore"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testClass",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should login & see the books in the Customer Collection using helper._locate"
+  }, {
+    "name" : "package",
+    "value" : "Bookstore Endpoints @bookstore:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@bookstore" ]
+  },
+  "source" : "f6922356edcf326e.json",
+  "parameterValues" : [ ]
+}

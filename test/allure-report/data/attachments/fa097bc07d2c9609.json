@@ -1,0 +1,7 @@
+{
+  "statusCode": 401,
+  "body": {
+    "code": "1207",
+    "message": "User not found!"
+  }
+}

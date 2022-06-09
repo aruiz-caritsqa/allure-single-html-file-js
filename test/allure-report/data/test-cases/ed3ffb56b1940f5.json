@@ -1,0 +1,75 @@
+{
+  "uid" : "ed3ffb56b1940f5",
+  "name" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"isAuthorizedInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"404\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.isAuthorized Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"isAuthorizedInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"404\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}",
+  "historyId" : "106bdcb5a0b2d4d6074c2db835f0e407",
+  "time" : {
+    "start" : 1654767010434,
+    "stop" : 1654767011225,
+    "duration" : 791
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5374d66e11e4fa4a",
+      "name" : "input",
+      "source" : "5374d66e11e4fa4a.json",
+      "type" : "application/json",
+      "size" : 53
+    }, {
+      "uid" : "d8400a83b05c9355",
+      "name" : "output",
+      "source" : "d8400a83b05c9355.json",
+      "type" : "application/json",
+      "size" : 93
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "isAuthorized Data Driven Test | {\"desc\":\"Fail - incorrect userName\",\"isAuthorizedInput\":\"({userName: 'foo', password: usernamePassword})\",\"expStatusCode\":\"404\",\"expMsg\":\"({\\\"code\\\": \\\"1207\\\", \\\"message\\\": \\\"User not found!\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "ed3ffb56b1940f5.json",
+  "parameterValues" : [ ]
+}

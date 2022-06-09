@@ -1,0 +1,7 @@
+{
+  "statusCode": 401,
+  "body": {
+    "code": "1200",
+    "message": "User not authorized!"
+  }
+}

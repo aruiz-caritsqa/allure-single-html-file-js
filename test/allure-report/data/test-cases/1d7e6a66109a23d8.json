@@ -1,0 +1,75 @@
+{
+  "uid" : "1d7e6a66109a23d8",
+  "name" : "getUserAccount Data Driven Test | {\"desc\":\"Successful Authorization - uses computed variables (userID, token)\",\"getUserAccountInput\":\"({userID, token})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"userId\\\": userID, \\\"username\\\": usernamePassword, \\\"books\\\": []})\"}",
+  "fullName" : "User Account Endpoints @account:.getUserAccount Data Driven Test | {\"desc\":\"Successful Authorization - uses computed variables (userID, token)\",\"getUserAccountInput\":\"({userID, token})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"userId\\\": userID, \\\"username\\\": usernamePassword, \\\"books\\\": []})\"}",
+  "historyId" : "389484fb0bd0bfa1a2fb14e40e5ce826",
+  "time" : {
+    "start" : 1654767000455,
+    "stop" : 1654767001100,
+    "duration" : 645
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e50d07d6bef0d953",
+      "name" : "input",
+      "source" : "e50d07d6bef0d953.json",
+      "type" : "application/json",
+      "size" : 244
+    }, {
+      "uid" : "4f58244c1d0a0cbf",
+      "name" : "output",
+      "source" : "4f58244c1d0a0cbf.json",
+      "type" : "application/json",
+      "size" : 142
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "getUserAccount Data Driven Test | {\"desc\":\"Successful Authorization - uses computed variables (userID, token)\",\"getUserAccountInput\":\"({userID, token})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"userId\\\": userID, \\\"username\\\": usernamePassword, \\\"books\\\": []})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "1d7e6a66109a23d8.json",
+  "parameterValues" : [ ]
+}

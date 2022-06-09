@@ -1,0 +1,75 @@
+{
+  "uid" : "fcc08d8849abfd5a",
+  "name" : "generateToken Data Driven Test | {\"desc\":\"Successful Authorization - uses chai-match-pattern to validate response body\",\"generateTokenInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": /^[A-Za-z0-9-_=]+.[A-Za-z0-9-_=]+.?[A-Za-z0-9-_.+/=]*$/, \\\"expires\\\": global.cmp.isDateString, \\\"status\\\": \\\"Success\\\", \\\"result\\\": \\\"User authorized successfully.\\\"})\"}",
+  "fullName" : "User Account Endpoints @account:.generateToken Data Driven Test | {\"desc\":\"Successful Authorization - uses chai-match-pattern to validate response body\",\"generateTokenInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": /^[A-Za-z0-9-_=]+.[A-Za-z0-9-_=]+.?[A-Za-z0-9-_.+/=]*$/, \\\"expires\\\": global.cmp.isDateString, \\\"status\\\": \\\"Success\\\", \\\"result\\\": \\\"User authorized successfully.\\\"})\"}",
+  "historyId" : "8719d2a597fde8b2497d75a5a40e6b70",
+  "time" : {
+    "start" : 1654767013351,
+    "stop" : 1654767014028,
+    "duration" : 677
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8455bbd92ad41799",
+      "name" : "input",
+      "source" : "8455bbd92ad41799.json",
+      "type" : "application/json",
+      "size" : 62
+    }, {
+      "uid" : "2f6511a92697960a",
+      "name" : "output",
+      "source" : "2f6511a92697960a.json",
+      "type" : "application/json",
+      "size" : 346
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@account"
+  }, {
+    "name" : "suite",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testClass",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "testMethod",
+    "value" : "generateToken Data Driven Test | {\"desc\":\"Successful Authorization - uses chai-match-pattern to validate response body\",\"generateTokenInput\":\"({userName: usernamePassword, password: usernamePassword})\",\"expStatusCode\":\"200\",\"expMsg\":\"({\\\"token\\\": /^[A-Za-z0-9-_=]+.[A-Za-z0-9-_=]+.?[A-Za-z0-9-_.+/=]*$/, \\\"expires\\\": global.cmp.isDateString, \\\"status\\\": \\\"Success\\\", \\\"result\\\": \\\"User authorized successfully.\\\"})\"}"
+  }, {
+    "name" : "package",
+    "value" : "User Account Endpoints @account:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@account" ]
+  },
+  "source" : "fcc08d8849abfd5a.json",
+  "parameterValues" : [ ]
+}
