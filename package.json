@@ -1,6 +1,6 @@
 {
   "name": "allure-single-html-file-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Port of MihanEntalpo's allure-single-html-file from python to node to create a single html files using all the allure report data",
   "main": "combine.js",
   "scripts": {
