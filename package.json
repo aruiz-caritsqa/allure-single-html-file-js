@@ -1,8 +1,8 @@
 {
   "name": "allure-single-html-file-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Port of MihanEntalpo's allure-single-html-file from python to node to create a single html files using all the allure report data",
-  "main": "combine.js",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --config ./jest.config.js",
     "debug": "node --inspect ./node_modules/.bin/jest --config ./jest.config.js"
