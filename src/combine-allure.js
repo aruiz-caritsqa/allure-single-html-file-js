@@ -145,11 +145,13 @@
      if (d.base64) {
        content = `data: ${d.mime};base64, ${d.content}`;
      } else {
-       content = `${d.content.replaceAll('\\', '\\\\').replaceAll('"', '\\"').replaceAll('\r\n', '\\n').replaceAll('\n', '\\n')
-         .replaceAll('<', '&lt;')
-         .replaceAll('>', '&gt;')}`;
-     }
-     fs.appendFileSync(`${folder}/server.js`, `"${d.url.replaceAll(sep, '/')}": "${content}", \n`);
+      if (process.env.ALLURE_REPORT_SANITIZE_ANGLE_BRACKETS) {
+        content = `${d.content.replaceAll('\\', '\\\\').replaceAll('"', '\\"').replaceAll('\r\n', '\\n').replaceAll('\n', '\\n').replaceAll('<', '&lt;').replaceAll('>', '&gt;')}`;       
+      } else {
+        content = `${d.content.replaceAll('\\', '\\\\').replaceAll('"', '\\"').replaceAll('\r\n', '\\n').replaceAll('\n', '\\n')}`;       
+      }
+    }
+    fs.appendFileSync(`${folder}/server.js`, `"${d.url.replaceAll(sep, '/')}": "${content}", \n`);
    }
    fs.appendFileSync(`${folder}/server.js`, '};\n');
  
