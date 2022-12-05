@@ -1,6 +1,6 @@
 {
   "name": "allure-single-html-file-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Port of MihanEntalpo's allure-single-html-file from python to node to create a single html files using all the allure report data",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "Adrien Ruiz Gauder",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aruiz-caritsqa/allure-single-html-file-js/issues"
+  },
+  "homepage": "https://github.com/aruiz-caritsqa/allure-single-html-file-js#readme",  
   "dependencies": {
     "glob": "^8.0.1",
     "jssoup": "^0.0.15"

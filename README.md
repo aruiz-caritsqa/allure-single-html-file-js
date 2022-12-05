@@ -28,6 +28,18 @@ npm install allure-single-html-file-js
 node ./node_modules/allure-single-html-file-js/combine.js ./some/path/to/allure/generated/folder
 ```
 
+## Options
+
+### ALLURE_REPORT_SANITIZE_ANGLE_BRACKETS
+If you set this environment variable to any value, then any angled brackets that appear in the content of the Allure Report (i.e "<" or ">") will be sanitized to "&lt;" or "&gt;"
+
+If you don't add this environment variable, then the angled brackets won't be sanitized.
+
+```bash
+ALLURE_REPORT_SANITIZE_ANGLE_BRACKETS=1 node ./node_modules/allure-single-html-file-js/combine.js ./some/path/to/allure/generated/folder
+```
+
+
 ## TODO
 
 * Keep up-to-date with [allure-single-html-file](https://github.com/MihanEntalpo/allure-single-html-file) changes
