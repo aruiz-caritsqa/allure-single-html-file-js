@@ -56,6 +56,8 @@
    const allowedExtensions = Object.keys(contentType);
  
    const data = [];
+
+   const startTime = performance.now();
  
    console.log('> Scanning folder for data files...');
  
@@ -196,13 +198,17 @@
  
    console.log('> Filling script tags with real files contents');
    for (const tag of soup.findAll('script')) {
-     const filePath = `${folder}${sep}${tag.attrs.src}`;
-     console.log('...', tag.toString(), filePath);
- 
-     const ff = fs.readFileSync(filePath, 'utf8');
-     const fullScriptTag = new JSSoup(`<script>${ff}</script>`);
-     tag.replaceWith(fullScriptTag);
-   }
+       try {
+         const filePath = `${folder}${sep}${tag.attrs.src}`;
+         console.log('...', tag.toString(), filePath);
+  
+         const ff = fs.readFileSync(filePath, 'utf8');
+         const fullScriptTag = new JSSoup(`<script>${ff}</script>`);
+         tag.replaceWith(fullScriptTag);
+       } catch (e) {
+         console.log('Something went wrong', e);
+       }
+     }
    console.log('Done');
  
    console.log('> Replacing link tags with style tags with real file contents');
@@ -224,6 +230,7 @@
  
    const { size: completeFileSize } = fs.statSync(`${folder}${sep}complete.html`);
    console.log(`Done. Complete file size is: ${completeFileSize} bytes`);
+   console.log(`Finised in ${Math.round((performance.now() - startTime) / 1000)}s`)
  };
  
  module.exports = {
